@@ -16,5 +16,4 @@ npm start
 ```
 
 ### Note**
-## if you get error while Share 
-## Just Refresh the browser to resolve the issue!!
+## if you get error while Share,Just Refresh the browser to resolve the issue!!
