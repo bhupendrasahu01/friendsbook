@@ -9,7 +9,7 @@ import { deepPurple, green } from '@material-ui/core/colors';
 
 import axios from "axios";
 import { useState } from "react";
-import Home from '../pages/Home/Home'
+
 
 const useStyles = makeStyles({
   headingColor: {
@@ -26,9 +26,7 @@ const useStyles = makeStyles({
 const Posts = () => {
   const classes = useStyles();
  const [student, setStudent] = useState({
-  stuname: "",
-  email: "",
-  desc:""
+  desc:"",
  });
  const [status, setStatus] = useState();
 
@@ -49,10 +47,11 @@ const Posts = () => {
   }
  }
  if (status) {
-  return 
+  return (
   <>
   <Posts />
   </>
+  );
  }
   return (
 <>
